@@ -2,7 +2,8 @@ from apscheduler.schedulers.blocking import BlockingScheduler
 
 import random
 import itchat
-import threading, time
+import threading
+import time
 from itchat.content import *
 
 should_send = False
